@@ -1,0 +1,134 @@
+.help-center {
+    background-image: url("/src/assets/images/contactbg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-text {
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15rem;
+}
+
+.help-text h1 {
+    font-size: 60px;
+}
+
+.help-input input {
+    width: 35rem;
+    height: 3rem;
+    border-radius: 30px;
+}
+
+.help-text h3 {
+    margin-top: -10px;
+}
+
+.order-return {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.order-track {
+    width: 25rem;
+    height: 17rem;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid black;
+    margin-top: -22rem;
+}
+
+.return-exchange {
+    width: 25rem;
+    height: 17rem;
+    border-radius: 20px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid black;
+    margin-top: -22rem;
+}
+
+.order-return button {
+    background-color: black;
+    color: #ffff;
+    border-radius: 20px;
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 15px;
+}
+
+.order-return h2 {
+    font-size: 30px;
+}
+
+.order-return button:hover {
+    background-color: rgb(207, 186, 186);
+}
+
+.popular-ques {
+    width: 100%;
+    height: 70vh;
+    background-color: #e0e0ff;
+}
+
+@media (max-width: 768px) {
+    .help-text h1 {
+        font-size: 36px; 
+    }
+
+    .help-input input {
+        width: 90%; 
+        height: 2.5rem; 
+    }
+
+    .order-return {
+        flex-direction: column; 
+        height: auto; 
+        gap: 20px; 
+    }
+
+    .order-track,
+    .return-exchange {
+        width: 90%; 
+        height: auto; 
+        margin-top: 0; 
+    }
+
+    .order-return button {
+        width: 100%; 
+        height: 2rem; 
+       font-size: 14px; 
+    }
+
+    .order-return h2 {
+        font-size: 24px; 
+    }
+
+    .popular-ques {
+        height: auto; 
+        padding: 20px; 
+    }
+}

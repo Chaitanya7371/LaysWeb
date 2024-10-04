@@ -1,0 +1,15 @@
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.page-details{
+    width:60%;
+    height: 50vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,243 @@
+
+.product {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    gap: 80px;
+    background-color: rgb(212, 91, 27);
+}
+
+.product-slider {
+    width: 40%;
+    height: 70vh;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+}
+
+.product-info {
+    width: 40%;
+    height: 85vh;
+    margin-top: 10rem;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+}
+
+.product-details {
+    display: flex;
+}
+
+.product-details img {
+    width: 100px;
+    margin-left: 30px;
+    gap: 10px;
+}
+
+.button-product{
+    gap:10px
+}
+.product-button button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 20px;
+    border: none;
+}
+.product-button button:hover{
+    background-color: #999;
+}
+
+.rating {
+    color: azure;
+}
+
+.product-delivery img {
+    margin-top: 40px;
+}
+.add-to:hover{
+    background-color: #999;
+}
+
+.product-delivery button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40rem;
+    height: 3rem;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+
+.chips-heading {
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.image-cut img {
+    width: 100%;
+}
+
+.might-like {
+    width: 30rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 50px 0px 0px 50px;
+}
+
+.might-img {
+    width: 6rem;
+}
+
+.might-text {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+
+.might-like h3 {
+    color: brown;
+    font-weight: bolder;
+}
+
+.yellowcut {
+    width: 100%;
+    height: 100%;
+}
+
+.product-text h3 {
+    color: aliceblue;
+}
+
+.select-text {
+    color: aliceblue;
+}
+
+.product-price h1 {
+    color: aliceblue;
+}
+
+.pricing-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 35rem;
+    height: 6rem;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.radio-label {
+    flex-grow: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.discounted {
+    color: #000;
+}
+
+.delivery-info {
+    font-size: 12px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .product-slider, .product-info {
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .product-info {
+        height: auto;
+    }
+
+    .product-price h1 {
+        font-size: 1.5rem;
+    }
+
+    .product-button button {
+        width: 8rem;
+        height: 3rem;
+        font-size: 14px;
+    }
+
+    .product-details img {
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    .might-like {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .might-img {
+        width: 4rem;
+    }
+
+    .might-text {
+        gap: 2rem;
+    }
+
+    .chips-heading {
+        font-size: 40px;
+    }
+
+    .pricing-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .product-delivery button {
+        width: 100%;
+        height: 3rem;
+    }
+}

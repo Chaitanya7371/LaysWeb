@@ -1,0 +1,54 @@
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto; 
+    margin-top: 5rem; 
+}
+
+.faqs button {
+    margin-top: 15px;
+    width: 90%; 
+    border-radius: 10rem;
+    border-color: bisque;
+}
+
+.product-faqs {
+    color: #893B12;
+    font-weight: bolder;
+    font-size: 35px; 
+}
+
+.faqs button h2 {
+    color: #893B12;
+    font-size: 25px; 
+}
+
+.faqs button p {
+    font-size: 20px; 
+}
+
+@media screen and (min-width: 768px) {
+    .faqs {
+        height: 70vh; 
+        margin-top: 10rem; 
+    }
+
+    .faqs button {
+        width: 90rem; 
+    }
+
+    .product-faqs {
+        font-size: 50px; 
+    }
+
+    .faqs button h2 {
+        font-size: 30px; 
+    }
+
+    .faqs button p {
+        font-size: 25px; 
+    }
+}

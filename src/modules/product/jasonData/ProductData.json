@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "CrispQuest",
+    "price": "$2.69",
+    "image": "/src/assets/images/bohemianbarbecue.png"
+  },
+  {
+    "id": 2,
+    "name": "Munch Mingle",
+    "price": "$3.69",
+    "image": "/src/assets/images/mexican.png"
+  },
+  {
+    "id": 3,
+    "name": "SnackHaven",
+    "price": "$3.99",
+    "image": "/src/assets/images/nachos.png"
+  },
+  {
+    "id": 4,
+    "name": "Crunch Cubes",
+    "price": "$2.99",
+    "image": "/src/assets/images/puffchips.png"
+  },
+  {
+    "id": 5,
+    "name": "Snack Supreme",
+    "price": "$4.29",
+    "image": "/src/assets/images/bohemianbarbecue.png"
+  },
+  {
+    "id": 6,
+    "name": "Salty Treat",
+    "price": "$1.99",
+    "image": "/src/assets/images/mexican.png"
+  }
+
+]

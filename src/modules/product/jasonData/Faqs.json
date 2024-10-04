@@ -1,0 +1,22 @@
+ [
+    { 
+      "id":1,
+     "question": "What are the main ingredients in this snack?",
+     "answer": "The snack is made with all-natural ingredients, including whole grain oats, honey, and dried fruit, ensuring a tasty and nutritious option for on-the-go snacking."
+    },
+    {
+      "id":2,
+      "question": "Is this snack suitable for people with dietary restrictions?",
+      "answer": "Yes, this snack is gluten-free, vegan, and contains no added sugars, making it a great choice for those with dietary restrictions."
+    },
+    {
+      "id":3,
+      "question": "How many calories are in one serving of this snack?",
+      "answer": "Each serving of this snack contains 150 calories, making it a guilt-free option for those watching their calorie intake."
+    },
+    {
+      "id":4,
+      "question": "What are the health benefits of this snack?",
+      "answer": "This snack is rich in fiber, which supports digestive health, and it's packed with antioxidants from the dried fruit, promoting overall well-being."
+    }
+  ]

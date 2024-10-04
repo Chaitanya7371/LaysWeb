@@ -1,0 +1,59 @@
+.help-desk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-box {
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    border-radius: 2rem;
+    background-color: #f4f4ff;
+}
+
+.help-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.help-box img {
+    width: 5rem;
+}
+
+.help-box h2 {
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+    .help-box {
+        width: 90%; 
+        height: auto; 
+        padding-left: 20px; 
+    }
+
+    .help-box img {
+        width: 4rem; 
+    }
+
+    .help-box h2 {
+        font-size: 24px; 
+    }
+
+    .help-container {
+        gap: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .help-box h2 {
+        font-size: 20px; 
+    }
+}
