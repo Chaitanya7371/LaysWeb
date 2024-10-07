@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import "/src/styles/Slider.css";
 import { GrCaretPrevious } from "react-icons/gr";
-import { GrCaretNext } from "react-icons/gr";
+import { GrCaretNext } from "react-icons/gr"
+import ProductData from'../product/jasonData/ProductData.json'
 
 const Slider = () => {
   const [images, setImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/src/modules/product/jasonData/ProductData.json")
-      .then((response) => response.json())
-      .then((data) => setImages(data));
+    // fetch("/src/modules/product/jasonData/ProductData.json")
+    //   .then((response) => response.json())
+     setImages(ProductData);
   }, []);
 
   const nextSlide = () => {
