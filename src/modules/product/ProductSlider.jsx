@@ -18,10 +18,10 @@ function ProductSlider() {
       <h1>RELATED PRODUCTS</h1>
       <div className="slide-container">
         <Slider {...settings}>
-          {ProductData.map((item) => (
+          {ProductData.map((item ,index) => (
             <div key={item.id} className="card-container">
               <div className="card-image">
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="productdata" />
                 <h2>{item.name}</h2>
                 <p>{item.price}</p>
               </div>
