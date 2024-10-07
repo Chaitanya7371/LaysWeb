@@ -32,7 +32,7 @@ function Video() {
           onClick={handleVideoClick}
         >
           <source
-            src="/src/assets/images/video.mp4"
+            src="https://cdn.shopify.com/videos/c/o/v/4fcae382aa4c4a5a9694b1bb84095942.mp4"
             type="video/mp4"
             className="video-play"
           />
